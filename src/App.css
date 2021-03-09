@@ -1,38 +1,329 @@
-.App {
-  text-align: center;
-}
+body {
+  --maths-color: #EA7052;
+  --physics-color: #7B7FDA;
+  --chemistry-color: #F9AD6D;
+  --biology-color: #68BC98;
+  --english-color: #7B7FDA;
+  background-color:  #ededee !important;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.w-90 {
+  width: 90%;
 }
+.head_txt1 {
+  font-family: Itim;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 114.21%;
+/* identical to box height, or 55px */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+letter-spacing: -1px;
+
+color: #313848;
+}
+.video_container {
+  width: 100%;
+  margin-top: -1em;
+}
+.mar_top {
+  margin-top: -1em;
+}
+.next_vid {
+  background: url(./assets/Mask\ Group.png) no-repeat;
+  width: 360px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+text-transform: uppercase;
+margin-bottom: 2em;
+}
+.btn_sm {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 98.08px;
+height: 33.15px;
+
+
+  background: #EA7052;
+border-radius: 6.90722px;
+
+  font-family: Mulish;
+font-size: 13.8144px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 1.38144px;
+text-transform: uppercase;
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.txt1 {
+  font-family: Mulish;
+font-size: 15.3px;
+line-height: 115.46%;
+/* identical to box height, or 18px */
+
+text-align: right;
+letter-spacing: 2.55px;
+text-transform: uppercase;
+font-weight: bold;
+
+color: #FFFFFF;
+}
+.txt2 {
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 16.5773px;
+  line-height: 115.46%;
+}
+.txt3 {
+  font-family: Mulish;
+  font-weight: bold;
+font-size: 22.1031px;
+line-height: 28px;
+letter-spacing: 0.552577px;
+text-transform: capitalize;
+
+color: #313848;
+}
+.txt4 {
+  font-family: Itim;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33.1525px;
+  line-height: 36px;
+  letter-spacing: 0.276271px;
+  
+  color: #313848;
+}
+.txt5 {
+  font-family: Mulish;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.4px;
+
+color: #313848;
+}
+.txt6 {
+  font-family: Mulish;
+  font-size: 18px;
+  line-height: 134.29%;
+  /* or 24px */
+  
+  letter-spacing: 0.4px;
+  
+  color: #313848;
+  
+  opacity: 0.5;
+}
+.head_txt3 {
+  font-family: Itim;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 109.2%;
+  /* identical to box height, or 31px */
+  
+  letter-spacing: 0.2px;
+  
+  color: #313848;
+}
+
+.c_card {
+  background: #FFFFFF;
+border-radius: 17.2574px;
+height: 213.73px;
+width: 196.47px;
+padding: 0 1em;
+}
+.c_card .img {
+  width: 126.11px;
+height: 123.46px;
+margin: 0 auto;
+}
+.c_card .txt {
+  font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 19.9124px;
+line-height: 27px;
+text-align: center;
+
+letter-spacing: 0.530996px;
+
+color: #313848;
+}
+.proc {
+  margin-top: 0.5em;
+  background: url('./assets/progress.svg') no-repeat;
+  height: 0.4em;
+  width: 100%;
+  margin: 0.5em auto;
+  display: none;
+}
+.c_card .v0 {
+  width: 126.11px;
+height: 123.46px;
+background: url(./assets/image\ 6.png) no-repeat;
+}
+.c_card .v1 {
+  width: 126.11px;
+height: 123.46px;
+background: url(./assets/BIO11_06_04\ 1.png) no-repeat;
+background-position:50% ;
+}
+.c_card .v2 {
+  width: 126.11px;
+height: 123.46px;
+background: url(./assets/BIO11_03_04\ 1.png) no-repeat;
+background-position:50% ;
+}
+.c_card .v3 {
+  width: 126.11px;
+height: 123.46px;
+background: url(./assets/image\ 9.png) no-repeat;
+background-position:50% ;
+}
+.c_card .v4 {
+  width: 126.11px;
+height: 123.46px;
+background: url(./assets/image\ 9.png) no-repeat;
+background-position:50% ;
+}
+.c_card:first-child .proc {
+  display: block;
+}
+
+.thumb_class {
   color: white;
+  text-transform:uppercase;
+  width: 196.35px;
+  height: 102px;
+  background-size: cover;
+  border-radius: 16.575px;
+  display: flex;
+  justify-content:flex-end;
+  align-items:flex-end;
+  padding-bottom:1em ;
+  box-sizing: border-box;
+  overflow: hidden;
+  
+}
+.thumb_class div{
+  box-sizing: border-box;
+  padding-right: 0.5em !important;
+  /* margin-right: 5em !important; */
+  
+}
+.Mathematics {
+  background: url(./assets/Group\ 309\ \(1\).svg) no-repeat;
+  /* background: var(--maths-color); */
+  
+}
+.Mathematicsv .img_thumb{
+  background: url(./assets/Group\ 2025.png) no-repeat;
+  /* background: var(--maths-color); */ 
+}
+.Physicsv .img_thumb{
+  background: url(./assets/Group\ 2026.png) no-repeat;
+  /* background: var(--maths-color); */ 
+}
+.Englishv .img_thumb{
+  background: url(./assets/Group\ 2027.png) no-repeat;
+  /* background: var(--maths-color); */ 
+}
+.img_thumb {
+  height: 158.87px;
+  min-width: 236.23px;
+}
+.Biologyv .img_thumb{
+  background: url(./assets/Group\ 2028.png) no-repeat;
+  /* background: var(--maths-color); */ 
+}
+.Mathematicsv .text_color{
+  color: var(--maths-color); 
+}
+.Biologyv .text_color{
+  color: var(--biology-color); 
+}
+.Englishv .text_color{
+  color: var(--english-color); 
+}
+.Physicsv .text_color{
+  color: var(--physics-color); 
 }
 
-.App-link {
-  color: #61dafb;
+.Physics {
+  background: url(./assets/Group\ 311.svg) no-repeat;
+  /* background: var(--physics-color); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Chemistry {
+  background: url(./assets/Group\ 308.svg) no-repeat;
+  /* background: var(--chemistry-color); */
+}
+
+.Biology {
+  background: url(./assets/Group\ 310.svg) no-repeat;
+  /* background: var(--biology-color); */
+}
+
+.English {
+  background: url(./assets/Group\ 56.svg) no-repeat;
+  /* background: var(--english-color); */
+}
+
+.logo {
+  background: url(./assets/Group\ 1.svg);
+  width: 148.33px;
+  height: 24px;
+  
+  
+}
+.title_container {
+  position: relative;
+}
+.arrow {
+  background: url(./assets/Group\ 41.svg);
+  width: 72.19px;
+height: 20.21px;
+position: absolute;
+left: -90px;
+top:35%;
+cursor: pointer;
+}
+
+.nav_ulesson {
+  background-color: #313848;
+  font-family: Mulish;
+font-size: 16px;
+line-height: 110%;
+/* identical to box height, or 18px */
+}
+.navbar-text{
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.profile{
+  background: url(./assets/Group\ 2021.svg);
+  height: 49px;
+  width: 49px;
+}
+.dash {
+  background-image: url(./assets/Vector.svg), url(./assets/Vector\ \(1\).svg);
+background-position: -100px -50px, 1100px 500px;
+background-repeat: no-repeat, no-repeat;
+}
+.chap {
+  background-image: url(./assets/Group.svg);
+background-position: 1250px 10px;
+background-repeat: no-repeat;
+}
+.vid {
+  background-image: url(./assets/Vector\ copy.svg);
+background-position: 350px 10px;
+background-repeat: no-repeat;
 }
